@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/acme</item>
+        <item>@font/aldrich</item>
+        <item>@font/allerta</item>
+        <item>@font/amaranth</item>
+        <item>@font/andada</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/arizonia</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/carter_one</item>
+    </array>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6C90E"
+    tools:context=".FifthActivity">
+
+    <TextView
+        android:id="@+id/qnn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="@string/question_no_4"
+        android:textColor="#151414"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#E88304"
+        android:text="@string/nexttoqn5"
+        android:textColor="#3E2723"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
+
+    <ImageView
+        android:id="@+id/qnpic5"
+        android:layout_width="182dp"
+        android:layout_height="329dp"
+        android:contentDescription="@string/qn7pic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452"
+        app:srcCompat="@drawable/daco_5537622" />
+
+    <TextView
+        android:id="@+id/qn4"
+        android:layout_width="288dp"
+        android:layout_height="216dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/qnno7"
+        android:textColor="#0B0A0A"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <RadioGroup
+        android:id="@+id/layout"
+        android:layout_width="343dp"
+        android:layout_height="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.300"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726">
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/geass"
+            android:textColor="#0E0D0D"
+            android:textSize="28sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/kamui"
+            android:textColor="#0E0D0D"
+            android:textSize="28sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/all_for_one"
+            android:textColor="#0E0D0D"
+            android:textSize="28sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/sharingan"
+            android:textColor="#0E0D0D"
+            android:textSize="28sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

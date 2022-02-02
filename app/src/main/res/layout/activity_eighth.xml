@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6C90E"
+    tools:context=".EighthActivity">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#E88304"
+        android:text="@string/nexttoqn6"
+        android:textColor="#3E2723"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
+
+    <TextView
+        android:id="@+id/qnn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="@string/question_no_7"
+        android:textColor="#151414"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/qnc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="@string/qndecof7"
+        android:textColor="#0B0A0A"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <RadioGroup
+        android:id="@+id/layout7"
+        android:layout_width="343dp"
+        android:layout_height="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.300"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" >
+
+        <RadioButton
+            android:id="@+id/radioButton25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/kentaro_miura"
+            android:textColor="#0E0D0D"
+            android:textSize="28sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/akira_toriyama"
+            android:textColor="#0E0D0D"
+            android:textSize="28sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/hayao_miyazaki"
+            android:textColor="#0E0D0D"
+            android:textSize="28sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/eiichiro_oda"
+            android:textColor="#0E0D0D"
+            android:textSize="28sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="343dp"
+        android:layout_height="316dp"
+        android:contentDescription="@string/qnpicof7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284"
+        app:srcCompat="@drawable/one_piece" />
+</androidx.constraintlayout.widget.ConstraintLayout>
